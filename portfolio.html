@@ -14,122 +14,134 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <nav class="nav">
-        <a class="logo" href="./index.html"
-          ><span class="logo-text">Web</span>Studio</a
-        >
-        <ul class="site-nav">
-          <li><a href="./index.html" class="link">Студія</a></li>
-          <li>
-            <a href="./portfolio.html" class="link-current" target="_self"
-              >Портфоліо</a
+    <header class="header-page">
+      <div class="container main-nav">
+        <nav class="nav">
+          <a class="logo" href="./index.html"
+            ><span class="logo-text">Web</span>Studio</a
+          >
+          <ul class="site-nav">
+            <li class="item"><a href="./index.html" class="link">Студія</a></li>
+            <li class="item">
+              <a href="./portfolio.html" class="link-current" target="_self"
+                >Портфоліо</a
+              >
+            </li>
+            <li class="item"><a href="" class="link">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts">
+          <li class="item">
+            <a href="tel: +14251234563" class="contact-link-header"
+              >+1 (425) 123-45-63</a
             >
           </li>
-          <li><a href="" class="link">Контакти</a></li>
+          <li class="item">
+            <a href="mailto: example@mail.ua" class="contact-link-header"
+              >example@mail.ua</a
+            >
+          </li>
         </ul>
-      </nav>
-      <ul class="contacts">
-        <li>
-          <a href="tel: +14251234563" class="contact-link-header"
-            >+1 (425) 123-45-63</a
-          >
-        </li>
-        <li>
-          <a href="mailto: example@mail.ua" class="contact-link-header"
-            >example@mail.ua</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
 
     <main>
       <section class="section-navigation">
-        <h1></h1>
-        <ul class="button-list">
-          <li><button class="button-navigation" type="button">Усі</button></li>
-          <li>
-            <button class="button-navigation" type="button">Веб-сайт</button>
-          </li>
-          <li>
-            <button class="button-navigation" type="button">Додатки</button>
-          </li>
-          <li>
-            <button class="button-navigation" type="button">Дизайн</button>
-          </li>
-          <li>
-            <button class="button-navigation" type="button">Маркетинг</button>
-          </li>
-        </ul>
+        <div class="container buttons">
+          <h1 class="hidden">Приклади</h1>
+          <ul class="button-list">
+            <li>
+              <button class="button-navigation" type="button">Усі</button>
+            </li>
+            <li>
+              <button class="button-navigation" type="button">Веб-сайт</button>
+            </li>
+            <li>
+              <button class="button-navigation" type="button">Додатки</button>
+            </li>
+            <li>
+              <button class="button-navigation" type="button">Дизайн</button>
+            </li>
+            <li>
+              <button class="button-navigation" type="button">Маркетинг</button>
+            </li>
+          </ul>
+        </div>
 
-        <ul class="gallery-list">
-          <li>
-            <img src="./images/tehno.jpg" alt="" width="370" />
-            <h2 class="gallery-list-title">Технокряк</h2>
-            <p class="gallery-list-text">Веб-сайт</p>
-          </li>
-          <li>
-            <img src="./images/poster.jpg" alt="" width="370" />
-            <h2 class="gallery-list-title">Постер New Orlean vs Golden Star</h2>
-            <p class="gallery-list-text">Дизайн</p>
-          </li>
-          <li>
-            <img src="./images/resto.jpg" alt="" width="370" />
-            <h2 class="gallery-list-title">Ресторан Seafood</h2>
-            <p class="gallery-list-text">Додаток</p>
-          </li>
-          <li>
-            <img src="./images/prime.jpg" alt="" width="370" />
-            <h2 class="gallery-list-title">Проєкт Prime</h2>
-            <p class="gallery-list-text">Маркетинг</p>
-          </li>
-          <li>
-            <img src="./images/boxes.jpg" alt="" width="370" />
-            <h2 class="gallery-list-title">Проєкт Boxes</h2>
-            <p class="gallery-list-text">Додаток</p>
-          </li>
-          <li>
-            <img src="./images/borders.jpg" alt="" width="370" />
-            <h2 class="gallery-list-title">Inspiration has no Borders</h2>
-            <p class="gallery-list-text">Веб-сайт</p>
-          </li>
-          <li>
-            <img src="./images/lsmed.jpg" alt="" width="370" />
-            <h2 class="gallery-list-title">Видання Limited Edition</h2>
-            <p class="gallery-list-text">Дизайн</p>
-          </li>
-          <li>
-            <img src="./images/lab.jpg" alt="" width="370" />
-            <h2 class="gallery-list-title">Проєкт LAB</h2>
-            <p class="gallery-list-text">Маркетинг</p>
-          </li>
-          <li>
-            <img src="./images/buisnes.jpg" alt="" width="370" />
-            <h2 class="gallery-list-title">Growing Business</h2>
-            <p class="gallery-list-text">Додаток</p>
-          </li>
-        </ul>
+        <div class="gallery-container">
+          <ul class="gallery-list">
+            <li class="item">
+              <img src="./images/tehno.jpg" alt="" width="370" />
+              <h2 class="gallery-list-title">Технокряк</h2>
+              <p class="gallery-list-text">Веб-сайт</p>
+            </li>
+            <li class="item">
+              <img src="./images/poster.jpg" alt="" width="370" />
+              <h2 class="gallery-list-title">
+                Постер New Orlean vs Golden Star
+              </h2>
+              <p class="gallery-list-text">Дизайн</p>
+            </li>
+            <li class="item">
+              <img src="./images/resto.jpg" alt="" width="370" />
+              <h2 class="gallery-list-title">Ресторан Seafood</h2>
+              <p class="gallery-list-text">Додаток</p>
+            </li>
+            <li class="item">
+              <img src="./images/prime.jpg" alt="" width="370" />
+              <h2 class="gallery-list-title">Проєкт Prime</h2>
+              <p class="gallery-list-text">Маркетинг</p>
+            </li>
+            <li class="item">
+              <img src="./images/boxes.jpg" alt="" width="370" />
+              <h2 class="gallery-list-title">Проєкт Boxes</h2>
+              <p class="gallery-list-text">Додаток</p>
+            </li>
+            <li class="item">
+              <img src="./images/borders.jpg" alt="" width="370" />
+              <h2 class="gallery-list-title">Inspiration has no Borders</h2>
+              <p class="gallery-list-text">Веб-сайт</p>
+            </li>
+            <li class="item">
+              <img src="./images/lsmed.jpg" alt="" width="370" />
+              <h2 class="gallery-list-title">Видання Limited Edition</h2>
+              <p class="gallery-list-text">Дизайн</p>
+            </li>
+            <li class="item">
+              <img src="./images/lab.jpg" alt="" width="370" />
+              <h2 class="gallery-list-title">Проєкт LAB</h2>
+              <p class="gallery-list-text">Маркетинг</p>
+            </li>
+            <li class="item">
+              <img src="./images/buisnes.jpg" alt="" width="370" />
+              <h2 class="gallery-list-title">Growing Business</h2>
+              <p class="gallery-list-text">Додаток</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
       <a class="logo" href="./index.html"
         ><span class="logo-text">Web</span>Studio</a
       >
-      <address>
-        <p class="address">м. Київ, пр-т Лесі Українки, 26</p>
-        <ul class="contacts">
-          <li>
-            <a href="tel: +14251234563" class="contact-link-footer"
-              >+1 (425) 123-45-63</a
-            >
-          </li>
-          <li>
-            <a href="mailto: example@mail.ua" class="contact-link-footer"
-              >example@mail.ua</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="footer-container">
+        <address>
+          <p class="address">м. Київ, пр-т Лесі Українки, 26</p>
+          <ul class="contacts-footer">
+            <li class="item">
+              <a href="tel: +14251234563" class="contact-link-footer"
+                >+1 (425) 123-45-63</a
+              >
+            </li>
+            <li class="item">
+              <a href="mailto: example@mail.ua" class="contact-link-footer"
+                >example@mail.ua</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
