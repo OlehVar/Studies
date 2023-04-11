@@ -170,6 +170,8 @@ section {
   margin-right: 10px;
 }
 .contact-link-header {
+  align-items: center;
+  display: flex;
   margin-left: 0;
   font-weight: 500;
   font-size: 14px;
