@@ -262,10 +262,9 @@ section {
   background-color: var(--accent-color);
 }
 
-/* .section-company {
-  padding-top: 94px;
-  margin: 0px;
-} */
+.section-company {
+  padding-bottom: 0;
+}
 
 .company-list {
   display: flex;
@@ -284,6 +283,7 @@ section {
   content: "";
   display: block;
   height: 120px;
+  width: 270px;
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
