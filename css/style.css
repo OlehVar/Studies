@@ -752,8 +752,7 @@ section {
   fill: white;
 }
 
-
-.modal-btn:hover :before{
+.modal-btn:hover :before {
   fill: var(--accent-color);
 }
 
@@ -826,17 +825,14 @@ section {
 .btn.submit-modal:hover,
 .btn.submit-footer:focus,
 .btn.submit-modal:focus {
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 
 .icon-send {
   margin-left: 10px;
   /* height: 15px;
   width: 15px; */
-  
 }
-
-
 
 /* modal */
 
@@ -950,7 +946,6 @@ section {
   font-size: 14px;
   line-height: 1.64;
   color: var(--primary-text-color);
-
 }
 
 .checkbox-label .link {
